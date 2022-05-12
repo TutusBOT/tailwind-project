@@ -12,7 +12,6 @@ dropdown.addEventListener("click", () => {
 		console.log(isOpened);
 		isOpened = true;
 		dropdown.classList.remove("rounded-b-xl");
-
 		dropdownList.classList.replace("hidden", "flex");
 	}
 });
